@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
+import "hardhat/console.sol";
 
 contract SimpleStorage {
   uint256 storedData;
@@ -22,5 +23,7 @@ contract MathTest {
     return a*b;
   }
 
-  function test() public pure view 
+  function test() public view {
+    console.log('Testing console.log');
+  }
 }

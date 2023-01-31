@@ -16,5 +16,8 @@
     "styled-components": "^5.3.1",
     "use-local-storage": "^2.2.4",
     "vite": "^3.0.4"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.6"
   }
 }
